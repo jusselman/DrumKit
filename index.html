@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DrumKit</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Play|Roboto+Condensed" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="icon" href="img/drumTab.png">
+    </head>
+      <body>
+
+        <div class="anim">
+        <h1 class="title">Beats on the Fly</h1>
+
+      <div class="wrapper">
+      <div class="keys">
+            <!-- FIRST ROW OF FOUR KEYPADS -->
+        <div data-key="50" class="key">
+          <kdb>2</kbd>
+          <span class="sound">KICK1</span>
+        </div>
+
+        <div data-key="51" class="key">
+          <kdb>3</kbd>
+          <span class="sound">TOM1</span>
+        </div>
+
+        <div data-key="52" class="key">
+          <kdb>4</kbd>
+          <span class="sound">TOM2</span>
+        </div>
+
+        <div data-key="53" class="key">
+          <kdb>5</kbd>
+          <span class="sound">TOM3</span>
+        </div>
+    <!-- SECOND ROW -->
+        <div data-key="81" class="key">
+          <kdb>Q</kbd>
+          <span class="sound">SHAKE</span>
+        </div>
+
+        <div data-key="87" class="key">
+          <kdb>W</kbd>
+          <span class="sound">SHHH</span>
+        </div>
+
+        <div data-key="69" class="key">
+          <kdb>E</kbd>
+          <span class="sound">BELL</span>
+        </div>
+
+        <div data-key="82" class="key">
+          <kdb>R</kbd>
+          <span class="sound">CLAP</span>
+        </div>
+
+
+    <!-- THIRD ROW OF KEYS -->
+        <div data-key="65" class="key">
+          <kdb>A</kbd>
+          <span class="sound">OPEN</span>
+        </div>
+
+        <div data-key="83" class="key">
+          <kdb>S</kbd>
+          <span class="sound">RIDE</span>
+        </div>
+
+        <div data-key="68" class="key">
+          <kdb>D</kbd>
+          <span class="sound">CRASH</span>
+        </div>
+
+        <div data-key="70" class="key">
+          <kdb>F</kbd>
+          <span class="sound">SNARE1</span>
+        </div>
+
+
+      <!-- FOURTH ROW OF KEYS -->
+        <div data-key="90" class="key">
+          <kdb>Z</kbd>
+          <span class="sound">KICK2</span>
+        </div>
+
+        <div data-key="88" class="key">
+          <kdb>X</kbd>
+          <span class="sound">CLICK</span>
+        </div>
+
+        <div data-key="67" class="key">
+          <kdb>C</kbd>
+          <span class="sound">HIHAT</span>
+        </div>
+
+        <div data-key="86" class="key">
+          <kdb>V</kbd>
+          <span class="sound">SNARE2</span>
+        </div>
+      </div> <!-- PERTAINS TO KEYS CLASS -->
+    </div>
+  </div>
+
+        <!-- FIRST ROW OF KEYPADS -->
+    <audio data-key="50" src="sounds/kick1.wav"></audio>
+    <audio data-key="51" src="sounds/tom-808.wav"></audio>
+    <audio data-key="52" src="sounds/tom-acoustic01.wav"></audio>
+    <audio data-key="53" src="sounds/tom-acoustic02.wav"></audio>
+
+    <!-- SECOND ROW OF KEYPADS -->
+    <audio data-key="81" src="sounds/shaker-analog.wav"></audio>
+    <audio data-key="87" src="sounds/shaker-suckup.wav"></audio>
+    <audio data-key="69" src="sounds/cowbell-808.wav"></audio>
+    <audio data-key="82" src="sounds/clap-tape.wav"></audio>
+
+    <!-- THIRD ROW OF KEYPADS -->
+    <audio data-key="65" src="sounds/openhat-acoustic01.wav"></audio>
+    <audio data-key="83" src="sounds/ride.wav"></audio>
+    <audio data-key="68" src="sounds/crash-acoustic.wav"></audio>
+    <audio data-key="70" src="sounds/snare-808.wav"></audio>
+
+    <!-- FOURTH ROW OF KEYPADS -->
+    <audio data-key="90" src="sounds/kick.wav"></audio>
+    <audio data-key="88" src="sounds/perc-808.wav"></audio>
+    <audio data-key="67" src="sounds/hihat-808.wav"></audio>
+    <audio data-key="86" src="sounds/snare.wav"></audio>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
